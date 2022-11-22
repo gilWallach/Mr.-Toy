@@ -61,6 +61,7 @@ function _makeId(length = 5) {
 }
 function _saveToysToFile() {
   return new Promise((resolve, reject) => {
+    console.log(JSON.stringify(gToys, null, 2))
     const data = JSON.stringify(gToys, null, 2)
 
     fs.writeFile('data/toy.json', data, (err) => {

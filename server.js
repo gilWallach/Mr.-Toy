@@ -5,24 +5,21 @@ const cookieParser = require('cookie-parser')
 const toyService = require('./services/toy.service')
 
 const app = express()
+const http = require('http').createServer(app)
 
 // Express Config:
 app.use(express.static('public'))
 app.use(cookieParser())
 app.use(express.json())
 
-const port = process.env.PORT || 3030
+const port = process.env.PORT || 3031
 
-app.listen(port, () => {
-  console.log(`App listening on port ${port}!`)
-  });
 const corsOptions = {
   origin: [
-    'http://127.0.0.1:8080',
     'http://localhost:5173',
     'http://127.0.0.1:5173',
-    'http://localhost:3000',
-    'http://127.0.0.1:3000',
+    'http://localhost:3031',
+    'http://127.0.0.1:3031',
   ],
   credentials: true,
 }
@@ -106,6 +103,6 @@ app.post('/logout', (req, res) => {
   res.send('logging  uot')
 })
 
-app.listen(3030, () =>
-  console.log(`Server listening on port http://127.0.0.1:3030/`)
+http.listen(port, () =>
+  console.log(`Server listening on port http://127.0.0.1:/${port}`)
 )

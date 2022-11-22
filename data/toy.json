@@ -1,12 +1,24 @@
 [
   {
-    "_id": "Zr9vE",
-    "name": "Monopoly",
+    "name": "chic",
     "price": 258,
     "inStock": true,
-    "createdAt": 1669101424039,
+    "createdAt": 1669139607645,
     "labels": [
-      "Board game"
+      "Doll",
+      "Battery Powerd"
+    ],
+    "reviews": [],
+    "_id": "xgNpg"
+  },
+  {
+    "_id": "Zr9vE",
+    "name": "Monopoly!!!",
+    "price": 258,
+    "inStock": true,
+    "createdAt": 1669139542901,
+    "labels": [
+      "Board Game"
     ],
     "reviews": [
       {
@@ -56,7 +68,7 @@
     "inStock": false,
     "createdAt": 1631031801011,
     "labels": [
-      "Board game",
+      "Board Game",
       "cards"
     ]
   }
