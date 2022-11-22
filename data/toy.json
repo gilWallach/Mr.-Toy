@@ -1,0 +1,63 @@
+[
+  {
+    "_id": "Zr9vE",
+    "name": "Monopoly",
+    "price": 258,
+    "inStock": true,
+    "createdAt": 1669101424039,
+    "labels": [
+      "Board game"
+    ],
+    "reviews": [
+      {
+        "content": "best ",
+        "user": "Puki",
+        "id": "r101"
+      },
+      {
+        "content": "better toy",
+        "user": "Muki",
+        "id": "r102"
+      },
+      {
+        "content": "toy",
+        "user": "Shuki",
+        "id": "r103"
+      }
+    ]
+  },
+  {
+    "name": "Puppy doll",
+    "price": 343,
+    "inStock": true,
+    "createdAt": 1669055513720,
+    "labels": [
+      "Doll",
+      "Battery Powerd"
+    ],
+    "reviews": [],
+    "_id": "UGRWh"
+  },
+  {
+    "_id": "t102",
+    "name": "Catan",
+    "price": 500,
+    "labels": [
+      "Board game",
+      "Adult"
+    ],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "t103",
+    "name": "Taki",
+    "price": 301,
+    "inStock": false,
+    "createdAt": 1631031801011,
+    "labels": [
+      "Board game",
+      "cards"
+    ]
+  }
+]
